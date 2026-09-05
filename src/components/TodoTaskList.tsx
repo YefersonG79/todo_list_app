@@ -1,10 +1,6 @@
+import { Task } from "../interfaces/tasks";
 interface TodoTaskListProps {
     tasks: Task[];
-}
-
-interface Task {
-    id: number;
-    name: string;
 }
 
 export const TodoTaskList = ({tasks} : TodoTaskListProps) => {
